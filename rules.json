@@ -1,0 +1,42 @@
+{
+  "version": "2026-10-01",
+  "tiers": [
+    {
+      "max": 80,
+      "pct": 20,
+      "fixed": 4.5
+    },
+    {
+      "max": 100,
+      "pct": 14,
+      "fixed": 16
+    },
+    {
+      "max": 200,
+      "pct": 14,
+      "fixed": 20
+    },
+    {
+      "max": null,
+      "pct": 14,
+      "fixed": 26
+    }
+  ],
+  "lowPriceLimit": 9,
+  "lowPriceFixedPct": 50,
+  "cpfSurcharge": 3,
+  "cpfLowPriceLimit": 12,
+  "cpfLowPriceSurcharge": 2,
+  "pix": [
+    {
+      "min": 80,
+      "max": 500,
+      "pct": 5
+    },
+    {
+      "min": 500,
+      "max": null,
+      "pct": 8
+    }
+  ]
+}
